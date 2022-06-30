@@ -1,0 +1,104 @@
+body {
+    background-image:url(https://thumbs.dreamstime.com/b/woman-hand-takes-slice-pizza-margherita-margarita-mozzarella-cheese-tomato-olive-italian-wooden-table-background-133909206.jpg);
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+    } 
+    .medium_Pizza { 
+       background-color: #FFCAB1 ;
+        border: 5px solid  #FFCAB1;
+        padding: 1em;
+        margin: 1em;
+        margin-left: 0.5em;
+        border-radius: 1em;
+        flex: 1;  
+    
+     
+
+
+
+    }
+
+     .Large_Pizza {  
+        background-color:#FFCAB1;
+        border: 5px solid #FFCAB1 ;
+        padding: 1em;
+        margin: 1em;
+        margin-left: 0.5em;
+        border-radius: 1em;
+        flex: 1;  
+
+    }
+
+    .Small-pizza { 
+        background-color: #FFCAB1;
+        border: 5px solid #FFCAB1;
+        padding: 1em;
+        margin: 1em;
+        margin-left: 0.5em;
+        border-radius: 1em; 
+        flex: 1;  
+    }
+
+    .Contact_details {
+        background-color: #EC0B43;
+        border: 5px solid, #EC0B43;
+        padding: 1em;
+        margin: 1em;
+        margin-left: 0.5em;
+        border-radius: 1em;
+        flex: 1;   
+    }
+    .header {
+        color: #EC0B43;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    @media(min-width:768px){
+       .Pizzas {
+            display:flex;
+            
+        }
+    }
+    .clearfix{
+        Overflow: auto;
+         Zoom: 1;
+         }
+  
+     
+     table { 
+      width: 50%;
+      
+      flex: 1;
+      text-align: justify;
+      margin-left: auto; 
+      margin-right: auto;
+      background-color: #EC0B43;
+      
+      
+     }
+     .checkout{
+        text-align: center;
+     }
+     table, th, td {
+        border: 1px solid;
+      }
+    .shop{
+        text-align: center;
+        display: flex;
+
+    }
+    
+    
+    .Pizzas{
+        display: flex;
+    }
+    .cart{
+        background-color:#EC0B43 ;
+        border: 1px solid #EC0B43;
+        padding: 1em;
+        border-radius: 1em; 
+        text-align: center; 
+        
+        
+    }
