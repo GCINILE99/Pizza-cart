@@ -54,7 +54,7 @@ body {
         align-items: center;
         text-align: center;
     }
-    @media(min-width:768px){
+    @media(min-width:720px){
        .Pizzas {
             display:flex;
             
@@ -88,17 +88,13 @@ body {
         display: flex;
 
     }
-    
-    
-    .Pizzas{
-        display: flex;
-    }
     .cart{
-        background-color:#EC0B43 ;
-        border: 1px solid #EC0B43;
-        padding: 1em;
-        border-radius: 1em; 
-        text-align: center; 
-        
-        
+        text-align: center;
+        background-color: #EC0B43;
     }
+
+    
+    
+    /* .Pizzas{
+        display: flex;
+    } */
